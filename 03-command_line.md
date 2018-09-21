@@ -62,6 +62,6 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-* Xarg allows you to pipe the data you have called out to perform additional operations
+>>  Xarg allows you to pipe the data you have called out to perform additional operations
  
 
