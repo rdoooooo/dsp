@@ -36,13 +36,13 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 ### Q2.  List Files in Unix   
 
 What do the following commands do:  
-`ls`  : list files in directory that are not hidden
-`ls -a`  :list all files in directory (includes hidden as well)
-`ls -l`  :list files in directory that are not hidden in long format (properties, owner, group, size, and time)
-`ls -lh` : llist files in directory that are not hidden in long format with readable file size format 
-`ls -lah` : list all files in directory (includes hidden as well) in long format with readable file size format 
-`ls -t`  : list files in directory that are not hidden in the order it was modified
-`ls -Glp`  list files in directory that are not hidden in long format without owner and adds a '\' for directories and 
+* `ls`  : list files in directory that are not hidden
+* `ls -a`  :list all files in directory (includes hidden as well)
+* `ls -l`  :list files in directory that are not hidden in long format (properties, owner, group, size, and time)
+* `ls -lh` : llist files in directory that are not hidden in long format with readable file size format 
+* `ls -lah` : list all files in directory (includes hidden as well) in long format with readable file size format 
+* `ls -t`  : list files in directory that are not hidden in the order it was modified
+* `ls -Glp`  list files in directory that are not hidden in long format without owner and adds a '\' for directories and 
 
 ---
 
@@ -50,11 +50,11 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-ls -laR: list all files including hidden ones with the contents of the subdirectories
-ls -lat: list all files including hidden ones by time stamp
-ls -ld: list only directories
-ls -lau : list all files including hidden ones by the last time they were accessed
-ls -1: list directories one line line per entry
+* ls -laR: list all files including hidden ones with the contents of the subdirectories
+* ls -lat: list all files including hidden ones by time stamp
+* ls -ld: list only directories
+* ls -lau : list all files including hidden ones by the last time they were accessed
+* ls -1: list directories one line line per entry
 
 ---
 
@@ -62,6 +62,6 @@ ls -1: list directories one line line per entry
 
 What does `xargs` do? Give an example of how to use it.
 
-Xarg allows you to pipe the data you have called out to perform additional operations
+* Xarg allows you to pipe the data you have called out to perform additional operations
  
 
