@@ -20,22 +20,29 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+* show current working directory path: pwd
+* creating a directory: mkdir
+* deleting a directory: rmdir
+* creating a file using `touch` command: touch 
+* deleting a file: rm
+* renaming a file: mv
+* listing hidden files: ls -a
+* copying a file from one directory to another: cp
+* locate a file: locate 
+* display contents of a file: cat
 
 ---
 
 ### Q2.  List Files in Unix   
 
 What do the following commands do:  
-`ls`  
-`ls -a`  
-`ls -l`  
-`ls -lh`  
-`ls -lah`  
-`ls -t`  
-`ls -Glp`  
-
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+`ls`  : list files in directory that are not hidden
+`ls -a`  :list all files in directory (includes hidden as well)
+`ls -l`  :list files in directory that are not hidden in long format (properties, owner, group, size, and time)
+`ls -lh` : llist files in directory that are not hidden in long format with readable file size format 
+`ls -lah` : list all files in directory (includes hidden as well) in long format with readable file size format 
+`ls -t`  : list files in directory that are not hidden in the order it was modified
+`ls -Glp`  list files in directory that are not hidden in long format without owner and adds a '\' for directories and 
 
 ---
 
@@ -43,7 +50,11 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+ls -laR: list all files including hidden ones with the contents of the subdirectories
+ls -lat: list all files including hidden ones by time stamp
+ls -ld: list only directories
+ls -lau : list all files including hidden ones by the last time they were accessed
+ls -1: list directories one line line per entry
 
 ---
 
@@ -51,7 +62,6 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
-
+Xarg allows you to pipe the data you have called out to perform additional operations
  
 
