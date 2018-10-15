@@ -12,8 +12,8 @@ their household.
 Plot the actual and biased distributions, and compute their means. As a
 starting place, you can use chap03ex.ipynb
 
-
-'''
+### Definitions
+```
   def UnbiasPmf(pmf, label):
   
       new_pmf = pmf.Copy(label=label)
@@ -27,9 +27,10 @@ starting place, you can use chap03ex.ipynb
           new_pmf.Mult(x, x)
       new_pmf.Normalize()
       return new_pmf
- '''
+```
  
 # Code
+```
 import nsfg
 import thinkstats2
 import thinkplot
@@ -42,9 +43,9 @@ thinkplot.Config(xlabel='Number of children', ylabel='PMF')
 
 print('Unbiased mean is ',pmf_unbiased.Mean() )
 print('Biased mean is ',pmf_biased.Mean() )
-
+```
 # Answer
-Unbiased mean is 1.024
-Biased mean is 2.403
+> Unbiased mean is 1.024
+> Biased mean is 2.403
 
 (Plot is generated if code is ran)
