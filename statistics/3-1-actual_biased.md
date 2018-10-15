@@ -16,13 +16,10 @@ starting place, you can use chap03ex.ipynb
 
   def UnbiasPmf(pmf, label):
       new_pmf = pmf.Copy(label=label)
-
       for x, p in pmf.Items():
           new_pmf[x] *= 1/x
-
       new_pmf.Normalize()
       return new_pmf
-
   def BiasPmf(pmf, label):
       new_pmf = pmf.Copy(label=label)
       for x, p in pmf.Items():
