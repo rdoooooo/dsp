@@ -14,7 +14,7 @@ starting place, you can use chap03ex.ipynb
 
 '''
 
-
+'''
   def UnbiasPmf(pmf, label):
   
       new_pmf = pmf.Copy(label=label)
@@ -28,7 +28,8 @@ starting place, you can use chap03ex.ipynb
           new_pmf.Mult(x, x)
       new_pmf.Normalize()
       return new_pmf
-    
+ '''
+ 
 # Code
 import nsfg
 import thinkstats2
