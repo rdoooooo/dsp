@@ -19,7 +19,7 @@ def Cohen_d(df1,df2):
     
     return abs(d)
     
-#%%
+
 import nsfg
 df = nsfg.ReadFemPreg() 
 
@@ -46,13 +46,9 @@ d = Cohen_d(firsts_null,others_null)
 
 print('Cohen statistic d = ' + str(round(d,4)))
 print('Total weight between first and not first babies is small since d <0.2')
-#%%
-'''
-Cohen statistic d = 0.0887
-Total weight between first and not first babies is small since d <0.2
-'''
 
-#%% Looks at preg length
+
+## Looks at preg length
 
 # Check if there were any nans for pregnancy length
 firsts_null = firsts.prglngth.dropna()
@@ -68,14 +64,18 @@ d = Cohen_d(firsts_null,others_null)
 print('Cohen statistic d = ' + str(round(d,4)))
 print('Total pregnancy length difference between first and not first babies is small since d <0.2')
 
-'''
+
+# Answers
+Total Weight
+Cohen statistic d = 0.0887
+Total weight between first and not first babies is small since d <0.2
+
+Pregenancy Length
 Cohen statistic d = 0.0289
 Total pregnancy length difference between first and not first babies is small since d <0.2
-'''
 
-''' 
 Difference in pregnancy length and total weight difference of first and not first baby 
 is 3x in terms of Cohen d metric. However, both values are <0.2 therefore
 difference is considered small.
 
-'''
+
