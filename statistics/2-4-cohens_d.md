@@ -8,12 +8,12 @@ pregnancy length?
 
 '''
     import numpy as np
+    
     def Cohen_d(df1,df2):
         diff = df1.mean() - df2.mean()
         var1 = df1.var()
         var2 = df2.var()
         n1, n2 = len(df1), len(df2)
-
         pooled_var = (n1 * var1 + n2 * var2) / (n1 + n2)
         d = diff / np.sqrt(pooled_var)
 
