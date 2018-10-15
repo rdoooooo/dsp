@@ -12,7 +12,6 @@ their household.
 Plot the actual and biased distributions, and compute their means. As a
 starting place, you can use chap03ex.ipynb
 
-'''
 
 '''
   def UnbiasPmf(pmf, label):
