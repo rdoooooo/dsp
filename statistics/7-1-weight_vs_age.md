@@ -17,7 +17,7 @@ ize the relationship between these variables?
 
 '''
 
-
+```
 import nsfg
 import numpy as np
 import matplotlib.pyplot as plt
@@ -92,7 +92,7 @@ print('Spearman correlation: {}'.format(Spear))
 
 print('Correlation is weak and the relationship is nonlinear')
 
-------
+```
 Pearson correlation: 0.06883397000238382
 Spearman correlation: 0.09461004109658425
 Correlation is weak and the relationship is nonlinear
